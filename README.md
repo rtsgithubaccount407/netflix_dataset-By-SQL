@@ -53,7 +53,7 @@ GROUP BY 1;
 
 **Objective:** Determine the distribution of content types on Netflix.
 
-### 2. Find the Most Common Rating for Movies and TV Shows
+### 2. Find the Most Common Rating for Movies and TV Shows 
 
 ```sql
 WITH RatingCounts AS (
