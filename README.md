@@ -112,7 +112,7 @@ WHERE type = 'Movie'
 ORDER BY SPLIT_PART(duration, ' ', 1)::INT DESC;
 ```
 
-**Objective:** Find the movie with the longest duration.
+**Objective:** Find the movie with the longest duration. 
 
 ### 6. Find Content Added in the Last 5 Years
 
