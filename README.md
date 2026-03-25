@@ -85,7 +85,7 @@ WHERE release_year = 2020;
 
 ### 4. Find the Top 5 Countries with the Most Content on Netflix
 
-sql
+```sql
 SELECT * 
 FROM
 (
@@ -98,7 +98,7 @@ FROM
 WHERE country IS NOT NULL
 ORDER BY total_content DESC
 LIMIT 5;
-
+```
 **Objective:** Identify the top 5 countries with the highest number of content items.
 
 ### 5. Identify the Longest Movie
